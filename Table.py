@@ -108,7 +108,7 @@ class Table:
                 matriz[casaX][colunaY] = 3
             elif(casaSelecionada == 1):
                 matriz[casaX][colunaY] = 4
-            elif(casaSelecionada == 3):
+            elif(casaSelecionada == 3 or casaSelecionada == 4):
                 print("Você já marcou essa casa, selecione outra")
 
     def matrizIsOver(matriz):
